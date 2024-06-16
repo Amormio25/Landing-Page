@@ -1,0 +1,39 @@
+body {
+  height: 200vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+}
+
+.banner {
+  height: 100px;
+  background-color: #1f2937;
+}
+
+.footer {
+  height: 40px;
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
