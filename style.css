@@ -8,7 +8,7 @@ body {
 }
 
 .banner {
-  height: 100px;
+  height: 550px;
   background-color: #1f2937;
 }
 
@@ -20,20 +20,70 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0px 200px;
+  align-items: center;
 }
 
 .left {
   color: #f9faf8;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 530;
 }
 
 ul {
   list-style: none;
   text-decoration: none;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
 }
 
 a {
-  color: white;
+  color: #cdcdcf;
   text-decoration: none;
+}
+
+.banner-container {
+  display: flex;
+  padding: 120px 200px 0px 200px;
+  justify-content: space-between;
+}
+
+.banner-textbox {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  gap: 10px;
+}
+
+.banner-head {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+.banner-text {
+  color: #cdcdcf;
+  font-size: 18px;
+}
+
+.banner-pic {
+  width: 520px;
+  height: 230px;
+  background-color: #82828c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #3882f6;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 }
