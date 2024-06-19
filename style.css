@@ -87,3 +87,70 @@ button {
   font-weight: 600;
   font-size: 16px;
 }
+
+.title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 40px;
+}
+
+.info {
+  display: flex;
+  padding: 0px 320px 130px 320px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 180px;
+  gap: 8px;
+}
+
+.display-text {
+  color: #727272;
+  font-size: 18px;
+}
+
+.image {
+  width: 160px;
+  height: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 47vh;
+  background-color: #E5E7EB;
+}
+
+.quote-box {
+  width: 750px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.from {
+  text-align: end;
+  font-size: 24px;
+  font-weight: 700;
+}
