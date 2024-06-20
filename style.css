@@ -1,10 +1,14 @@
+* {
+  font-family: Roboto, sans-serif;
+}
+
 body {
   height: 200vh;
   margin: 0;
-  font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
   font-family: Roboto, sans-serif;
+  background-color: #1f2937;  
 }
 
 .banner {
@@ -25,7 +29,7 @@ body {
 }
 
 .left {
-  color: #f9faf8;
+  color: white;
   font-size: 24px;
   font-weight: 530;
 }
@@ -58,7 +62,7 @@ a {
 
 .banner-head {
   font-size: 48px;
-  color: #f9faf8;
+  color: white;
   font-weight: bolder;
 }
 
@@ -83,7 +87,6 @@ button {
   border: none;
   color: white;
   padding: 8px 32px;
-  font-family: Roboto, sans-serif;
   font-weight: 600;
   font-size: 16px;
 }
@@ -131,7 +134,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 47vh;
+  height: 49vh;
   background-color: #E5E7EB;
 }
 
@@ -153,4 +156,54 @@ button {
   text-align: end;
   font-size: 24px;
   font-weight: 700;
+}
+
+.signup-sheet {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-sheet, .info, .title {
+  background-color: white;
+}
+
+.bar {
+  width: 100vh;
+  height: 140px;
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-bar button {
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 32px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bar-head {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.bar-text {
+  color: white;
+}
+
+.footer {
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #cdcdcf;
 }
